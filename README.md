@@ -32,7 +32,7 @@ A modern, responsive chat inbox UI built with React, inspired by customer suppor
 ## Submission
 
 - **GitHub Repo:** [https://github.com/harshpdsingh/chat-ui.git]
-- **Live Site:** [https://your-live-url.vercel.app/]
+- **Live Site:** [https://chat-ui-tawny.vercel.app/]
 
 ---
 
