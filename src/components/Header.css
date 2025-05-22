@@ -1,0 +1,30 @@
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 32px 0 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.chat-header-close {
+  background: var(--primary-light);
+  border: none;
+  border-radius: 8px;
+  color: var(--primary);
+  font-size: 1.2rem;
+  padding: 4px 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.chat-header-close:hover {
+  background: #d1cfff;
+}
+
+@media (max-width: 900px) {
+  .chat-header {
+    padding: 14px 10px 0 10px;
+  }
+} 

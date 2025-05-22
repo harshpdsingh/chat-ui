@@ -1,0 +1,98 @@
+.chat-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chat-list-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 14px 24px;
+  cursor: pointer;
+  border-left: 4px solid transparent;
+  transition: background 0.2s, border-color 0.2s;
+  background: transparent;
+}
+
+.chat-list-item.selected {
+  background: var(--primary-light);
+  border-left: 4px solid var(--primary);
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  background: var(--primary-light);
+  color: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-right: 14px;
+  flex-shrink: 0;
+}
+
+.chat-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.chat-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat-time {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-left: 10px;
+}
+
+.chat-last-row {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.chat-last {
+  font-size: 0.95rem;
+  color: var(--primary);
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat-waiting-dot {
+  width: 8px;
+  height: 8px;
+  background: #ffb703;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.chat-unread-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--primary);
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+@media (max-width: 900px) {
+  .chat-list-item {
+    padding: 12px 10px;
+  }
+} 
