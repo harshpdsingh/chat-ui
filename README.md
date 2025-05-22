@@ -11,7 +11,7 @@ A modern, responsive chat inbox UI built with React, inspired by customer suppor
 
 ## Live Demo
 
-[View the live app here!](https://your-live-url.vercel.app/)
+[View the live app here!](https://chat-ui-tawny.vercel.app/)
 
 ## Getting Started
 
